@@ -1,0 +1,705 @@
+{
+    "kits":[
+        {
+            "name": "START",
+            "time": 1800,
+            "perm": "dkcode.kit.gracz",
+            "gui_item":{
+                "name": "&7Kit &7&lSTART",
+                "lore":[
+                    "&r",
+                    "   &8* &7Status: &a{STATUS} &8(&c{TIME}&8)",
+                    "&r"
+                ],
+                "item":{
+                    "item_id": 257,
+                    "item_meta_id": 0
+                },
+                "enchants":[
+                    {
+                        "name": "DIG_SPEED",
+                        "level": 5
+                    }
+                ]
+            },
+            
+            "items":[
+                {
+                    "name": "&7Kilof",
+                    "item":{
+                        "item_id": 257,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DIG_SPEED", 
+                            "level": 5
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        },
+                        {
+                            "name": "LOOT_BONUS_BLOCKS", 
+                            "level": 3
+                        }
+                    ] 
+                },
+                {
+                    "name": "&7EnderChest",
+                    "item":{
+                        "item_id": 130,
+                        "amount": 2,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "&9Super Stoniarka",
+                    "item":{
+                        "item_id": 1,
+                        "amount": 64,
+                        "item_meta_id": 0
+                    },
+                    "lore":[
+                        "&r",
+                        "   &8* &bItem SUPER STONIARKA &8*",
+                        "&r"
+                    ],
+                    "enchants":[
+                    {
+                        "name": "DIG_SPEED", 
+                        "level": 1
+                    }
+                    ] 
+                }
+            ]
+        },
+        {
+            "name": "Balwan",
+            "time": 43200,
+            "perm": "dkcode.kit.vip",
+            "gui_item":{
+                "name": "&7Kit &e&lBalwan",
+                "lore":[
+                    "&r",
+                    "   &8* &7Status: &a{STATUS} &8(&c{TIME}&8)",
+                    "&r"
+                ],
+                "item":{
+                    "item_id": 283,
+                    "item_meta_id": 0
+                },
+                "enchants":[
+                    {
+                        "name": "DAMAGE_ALL", 
+                        "level": 1
+                    }
+                ]
+            },
+            
+            "items":[
+                {
+                    "name": "&eKilof",
+                    "item":{
+                        "item_id": 278,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DIG_SPEED", 
+                            "level": 5
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        },
+                        {
+                            "name": "LOOT_BONUS_BLOCKS", 
+                            "level": 3
+                        }
+                    ] 
+                },
+                {
+                    "name": "&eMiecz 4/1",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DAMAGE_ALL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "FIRE_ASPECT", 
+                            "level": 1
+                        }
+                    ] 
+                },
+                {
+                    "name": "&eMiecz KnockBack",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "KNOCKBACK", 
+                            "level": 2
+                        }
+                    ] 
+                },
+                {
+                    "name": "&eButy",
+                    "item":{
+                        "item_id": 309,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&eSpodnie",
+                    "item":{
+                        "item_id": 308,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&eKlata",
+                    "item":{
+                        "item_id": 307,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&eHelm",
+                    "item":{
+                        "item_id": 306,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 322,
+                        "amount": 16,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 322,
+                        "amount": 16,
+                        "item_meta_id": 1
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 368,
+                        "amount": 16,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[]
+                },
+                {
+                    "name": "&eLod",
+                    "item":{
+                        "item_id": 174,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "&eBruk",
+                    "item":{
+                        "item_id": 4,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                }
+            ]
+        },
+        {
+            "name": "RENIFER",
+            "time": 43200,
+            "perm": "dkcode.kit.svip",
+            "gui_item":{
+                "name": "&7Kit &c&lR&f&lE&c&lN&f&lI&c&lF&f&lE&c&lR",
+                "lore":[
+                    "&r",
+                    "   &8* &7Status: &a{STATUS} &8(&c{TIME}&8)",
+                    "&r"
+                ],
+                "item":{
+                    "item_id": 267,
+                    "item_meta_id": 0
+                },
+                "enchants":[
+                    {
+                        "name": "DAMAGE_ALL", 
+                        "level": 2
+                    }
+                ]
+            },
+            "items":[
+                {
+                    "name": "&6Kilof",
+                    "item":{
+                        "item_id": 278,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DIG_SPEED", 
+                            "level": 5
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        },
+                        {
+                            "name": "LOOT_BONUS_BLOCKS", 
+                            "level": 3
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Miecz 4/1",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DAMAGE_ALL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "FIRE_ASPECT", 
+                            "level": 1
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Miecz KnockBack",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "KNOCKBACK", 
+                            "level": 2
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Miecz 4/1",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DAMAGE_ALL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "FIRE_ASPECT", 
+                            "level": 1
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Miecz KnockBack",
+                    "item":{
+                        "item_id": 267,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "KNOCKBACK", 
+                            "level": 2
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Buty",
+                    "item":{
+                        "item_id": 309,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Spodnie",
+                    "item":{
+                        "item_id": 308,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Klata",
+                    "item":{
+                        "item_id": 307,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Helm",
+                    "item":{
+                        "item_id": 306,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Buty",
+                    "item":{
+                        "item_id": 309,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Spodnie",
+                    "item":{
+                        "item_id": 308,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Klata",
+                    "item":{
+                        "item_id": 307,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "&6Helm",
+                    "item":{
+                        "item_id": 306,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "PROTECTION_ENVIRONMENTAL", 
+                            "level": 4
+                        },
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 322,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 322,
+                        "amount": 32,
+                        "item_meta_id": 1
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "&6Luk",
+                    "item":{
+                        "item_id": 261,
+                        "amount": 1,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "ARROW_FIRE", 
+                            "level": 1
+                        },
+                        {
+                            "name": "ARROW_DAMAGE", 
+                            "level": 3
+                        }
+                    ] 
+                },
+                {
+                    "name": "&6Strzaly",
+                    "item":{
+                        "item_id": 262,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "&6Lod",
+                    "item":{
+                        "item_id": 174,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                },
+                {
+                    "name": "",
+                    "item":{
+                        "item_id": 368,
+                        "amount": 16,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[]
+                },
+                {
+                    "name": "&6Bruk",
+                    "item":{
+                        "item_id": 4,
+                        "amount": 32,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[] 
+                }
+            ]
+        },
+        {
+            "name": "KEJSIKI",
+            "time": 86400,
+            "perm": "dkcode.kit.premiumcase",
+            "gui_item":{
+                "name": "&7Kit &b&lKejsiki",
+                "lore":[
+                    "&r",
+                    "   &8* &7Status: &a{STATUS} &8(&c{TIME}&8)",
+                    "&r"
+                ],
+                "item":{
+                    "item_id": 54,
+                    "item_meta_id": 0
+                },
+                "enchants":[]
+            },
+            "items":[
+                {
+                    "name": "&bKejsiki",
+                    "item":{
+                        "item_id": 54,
+                        "amount": 16,
+                        "item_meta_id": 0
+                    },
+                    "lore":[
+                        "&7Postaw aby otrzymac &bsuper nagrody&7!"
+                    ],
+                    "enchants":[] 
+                }
+            ]
+        },
+        {
+            "name": "JEDZENIE",
+            "time": 60,
+            "perm": "dkcode.kit.jedzenie",
+            "gui_item":{
+                "name": "&7Kit &8&lJEDZENIE",
+                "lore":[
+                    "&r",
+                    "   &8* &7Status: &a{STATUS} &8(&c{TIME}&8)",
+                    "&r"
+                ],
+                "item":{
+                    "item_id": 364,
+                    "item_meta_id": 0
+                },
+                "enchants":[]
+            },
+            "items":[
+                {
+                    "name": "&8&lJedzenie",
+                    "item":{
+                        "item_id": 364,
+                        "amount": 64,
+                        "item_meta_id": 0
+                    },
+                    "lore":[],
+                    "enchants":[
+                        {
+                            "name": "DURABILITY", 
+                            "level": 3
+                        }
+                    ] 
+                }
+            ]
+        }
+    ]
+}
